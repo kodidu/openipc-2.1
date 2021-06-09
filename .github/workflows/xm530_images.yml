@@ -6,7 +6,9 @@ on:
       - master
     tags:
       - "v*"
-
+      
+  workflow_dispatch:
+  
 jobs:
   build_core:
     name: OpenIPC v2.0 for XM530
